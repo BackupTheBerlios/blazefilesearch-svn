@@ -1,0 +1,6 @@
+LIBRARY	BlazeEngine
+
+DESCRIPTION The file indexing/searching component of Blaze
+
+EXPORTS
+	sendCommand    @ 1

@@ -1,0 +1,6 @@
+LIBRARY	Engine_Index
+
+DESCRIPTION The Blaze searching engine indexing services
+
+EXPORTS
+	init    @ 1

@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UI", "UI\UI.vcproj", "{2701C9E5-A502-4845-A6C0-63C770A2E3F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F85D7A4F-4027-4E49-9915-2F91BFD672EE} = {F85D7A4F-4027-4E49-9915-2F91BFD672EE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Engine.vcproj", "{F85D7A4F-4027-4E49-9915-2F91BFD672EE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine_Index", "Engine_Index\Engine_Index.vcproj", "{5B65A2CF-ED71-4DDD-AD12-5349DC04F86E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2701C9E5-A502-4845-A6C0-63C770A2E3F9}.Debug.ActiveCfg = Debug|Win32
+		{2701C9E5-A502-4845-A6C0-63C770A2E3F9}.Debug.Build.0 = Debug|Win32
+		{2701C9E5-A502-4845-A6C0-63C770A2E3F9}.Release.ActiveCfg = Release|Win32
+		{2701C9E5-A502-4845-A6C0-63C770A2E3F9}.Release.Build.0 = Release|Win32
+		{F85D7A4F-4027-4E49-9915-2F91BFD672EE}.Debug.ActiveCfg = Debug|Win32
+		{F85D7A4F-4027-4E49-9915-2F91BFD672EE}.Debug.Build.0 = Debug|Win32
+		{F85D7A4F-4027-4E49-9915-2F91BFD672EE}.Release.ActiveCfg = Release|Win32
+		{F85D7A4F-4027-4E49-9915-2F91BFD672EE}.Release.Build.0 = Release|Win32
+		{5B65A2CF-ED71-4DDD-AD12-5349DC04F86E}.Debug.ActiveCfg = Debug|Win32
+		{5B65A2CF-ED71-4DDD-AD12-5349DC04F86E}.Debug.Build.0 = Debug|Win32
+		{5B65A2CF-ED71-4DDD-AD12-5349DC04F86E}.Release.ActiveCfg = Release|Win32
+		{5B65A2CF-ED71-4DDD-AD12-5349DC04F86E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
