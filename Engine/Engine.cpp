@@ -20,12 +20,14 @@ int sendCommand(const blazeEngine_commands cmd, const char *args[])
 		// Init the engine
 	case BE_CMD_MAIN_INIT:
 		{
+			_engine_init(args[0], args[1]);
 			break;
 		}
 
 						// Stop the engine
 	case BE_CMD_MAIN_END:
 		{
+			_engine_fini();
 			break;
 		}
 

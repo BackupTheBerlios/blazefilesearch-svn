@@ -128,6 +128,9 @@
 			<File
 				RelativePath=".\Engine.cpp">
 			</File>
+			<File
+				RelativePath=".\Engine_main.cpp">
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
