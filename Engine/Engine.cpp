@@ -11,7 +11,7 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD ul_reason_for_call, LPVOID lpReserve
 	return TRUE;
 }
 
-int sendCommand(const blazeEngine_commands cmd, const char **args)
+int sendCommand(const blazeEngine_commands cmd, const char *args[])
 {
 	switch (cmd)
 	{
