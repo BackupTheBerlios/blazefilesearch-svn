@@ -16,7 +16,7 @@ extern "C" {
 #include <windows.h>
 
 
-
+/*
 // Commands for the engine to carry out
 enum blazeEngine_commands
 {
@@ -51,7 +51,7 @@ enum blazeEngine_commands
 	BE_CMD_METADATA_GETPERMISSIONSOTHER,	// Get file's other permissions
 	BE_CMD_METADATA_GETISHIDDEN 			// If the file is hidden (starts with `.' in *NIX, is a file attribute in Windows)
 };
-
+*/
 
 // Commands for the engine to carry out
 enum blazeEngine_storageOpts
@@ -75,12 +75,12 @@ enum blazeEngine_returns
 	BE_RET_SUCCESS
 };
 
-struct blazeEngine_storageData_entry
+struct blazeEngine_index_entry
 {
+	unsigned double id;
 	char *fileName;
 	char *fileLocation;
-	unsigned double fileSize;
-	char *sha1_hash;
+	char sha1_hash[40];
 };
 
 // Mangling prevention
